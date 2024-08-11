@@ -1,0 +1,56 @@
+POST http://localhost:3005/register
+Content-Type: application/json
+
+{
+    "name":"Madhu",
+    "username":"Madhu123",
+    "email":"madhu@exa",
+    "password":"ma12",
+    "gender":"Male",
+    "location":"Biccavolu"
+}
+
+###
+POST http://localhost:3005/register
+Content-Type: application/json
+
+{
+    "name":"veerababu",
+    "username":"veeru70",
+    "email":"veeru@exa",
+    "password":"veeru12",
+    "gender":"Male",
+    "location":"Biccavolu"
+}
+
+###
+POST http://localhost:3005/register
+Content-Type: application/json
+
+{
+    "name":"pavan",
+    "username":"pavan10",
+    "email":"pavan@exa",
+    "password":"pavan65",
+    "gender":"Male",
+    "location":"Biccavolu"
+}
+
+
+###
+POST http://localhost:3005/login/
+Content-Type: application/json
+
+{
+    "email":"madhu@exa",
+    "password":"ma12"
+}
+
+###
+GET http://localhost:3005/getUserData/66b806a03c1df822df250282
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmI4MDZhMDNjMWRmODIyZGYyNTAyODIiLCJpYXQiOjE3MjMzMzY1NDN9.nY-eVW6MINDrQsDYpRVxH6jLv39Goobc9bWsZLV4hqI
+
+###
+GET http://localhost:3005/getUsersData/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmI4MDZhMDNjMWRmODIyZGYyNTAyODIiLCJpYXQiOjE3MjMzMzY1NDN9.nY-eVW6MINDrQsDYpRVxH6jLv39Goobc9bWsZLV4hqI
+
